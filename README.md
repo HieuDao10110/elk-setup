@@ -343,3 +343,9 @@ Output
 \
 Dùng trình duyệt mở `localhost:5601`.
 Nhấn vào `Discover` ở thanh menu bên cạnh. chúng ta có thể xem log được gửi từ filebeat ở dây.
+\
+\
+`Luu y`: Chay cau lenh sau de chinh sua file log hoac thu muc chua file log de thu thap:
+```
+sudo nano /etc/filebeat/modules.d/system.yml
+```
